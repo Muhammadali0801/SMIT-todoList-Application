@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TodoList Application</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="iner-text">
+        <h1>Todo List Application</h1>
+        <p>Small Steps. Big Wins</p>
+      </div>
+      <div class="input-text">
+        <input type="text" id="userTask" placeholder="Enter Your Task" />
+        <div class="grp-btn">
+          <button onclick="addItem()">Add Task</button>
+          <button onclick="delAll()">Delete All</button>
+        </div>
+        <div class="ulList">
+          <ul id="taskList" class="ulStyle"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <script src="script.js"></script>
+  </body>
+</html>
